@@ -1,0 +1,56 @@
+#body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: yellow;
+}
+
+#app-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(8, 8, 8);
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 25px;
+    background-image: url("toto.img.jpg");
+    background-size: cover;
+}
+
+#text-input {
+    border: 2px solid green;
+    border-radius: 25px;
+    width: 300px;
+    height: 20px;
+}
+
+#add-btn {
+    gap: 5px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(10, 163, 15);
+    height: 20px;
+}
+
+#delete-btn {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(246, 5, 5);
+}
+
+#label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#check-box {
+    border: none;
+    border-radius: 50px;
+}
+
+@media (max-width: 412px) {
+    #text-input {
+        width: 200px;
+    }
+}
